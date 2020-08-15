@@ -12,9 +12,9 @@ public class WeatherDataSetupRepository {
 
 	//TODO change to your values
 	private static String driver = "com.mysql.cj.jdbc.Driver";
-	private static String url = "jdbc:mysql://weather-db.cclemdwrqdn2.us-east-2.rds.amazonaws.com:3306/weather";
+	private static String url = "jdbc:mysql://weather-dev.comr1j6zhptd.us-east-2.rds.amazonaws.com:3306/weather";
 	private static String userName = "admin";
-	private static String password = "Test1234?";
+	private static String password = "test1234";
 
 	public void insertWeatherData(List<Weather> weatherData) {
 
